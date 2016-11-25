@@ -166,7 +166,7 @@
         
         </div><!-- End Of container -->
         <div id="templatemo_footer">
-        	Copyright © 2016 Pune District Education Association,Pune | Website Developed and Maintain by <a href="http://www.techdivinity.com" target="_parent">Tech Divinity ,Pune</a>
+        	Copyright © 2016 Pune District Education Association,Pune | software Developed and Maintain by <a href="http://www.techdivinity.com" target="_parent">Tech Divinity ,Pune</a>
         </div>
     </div><!-- End Of Middle Background -->
 </body>
