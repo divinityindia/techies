@@ -1,0 +1,140 @@
+
+
+table{
+	
+	width: 100%;
+	border-spacing: 10px;
+    border-collapse: separate;
+    color:#ffffff;
+}
+
+table#coursebranchblock{
+	
+	width: 100%;
+	border-spacing: 10px;
+    border-collapse: separate;
+    color:#ffffff;
+    display:block;
+}
+
+table#otherdetails{
+	
+	width: 100%;
+	border-spacing: 10px;
+    border-collapse: separate;
+    color:#ffffff;
+    display: none;
+}
+
+#coursebranchblock td{
+	padding: 0 10px 0 25px
+}
+
+#otherdetails td{
+	padding: 0 10px 0 25px
+}
+
+th,td{
+	height: 36px;
+}
+
+.llabel{
+	width: 130px;
+}
+
+.exlabel{
+	width: 130px;
+	text-align: left;
+	padding-left: 50px
+}
+
+.clabel{
+	width: 70px;
+	text-align: center;
+}
+
+.qlabel{
+	width: 90px;
+	text-align: center;
+}
+
+.cerlabel{
+	width: 140px;
+	text-align: center;
+}
+
+
+.qtext{
+	width: 90px;
+	text-align: center;
+}
+
+table#studentprofile{
+	width: 90%;
+	
+    color:#000000;
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius:6px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.sname{
+	font-size: larger;
+	font-weight: bold;
+	color: #800000;
+}
+
+th.profile{
+	background-color: #ffffff
+}
+
+td.profile{
+	background-color: #ffffff;
+	color: black;
+}
+td.photo{
+	width: 130px;
+	background-color: #ffffff;
+	padding: 20px	
+}
+
+td.otherdetails{
+	padding:0 10px 0 25px;
+	
+}
+
+table.info{
+	width: 60%;
+	height: auto;
+}
+
+table.info {
+	font-family: verdana, arial, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+
+table.info th {
+	background-color: #c3dde0;
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+table.info tr {
+	background-color: #d4e3e5;
+}
+
+table.info td {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #a9c6c9;
+	text-align: center;
+}

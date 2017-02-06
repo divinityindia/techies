@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="idcard" language="groovy" printOrder="Horizontal" pageWidth="525" pageHeight="165" orientation="Landscape" columnWidth="525" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="55b3dfff-ab2c-48f7-b1c1-9258b7a61418">
+	<property name="ireport.zoom" value="1.4641000000000035"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="class" class="java.lang.String"/>
+	<parameter name="branch" class="java.lang.String"/>
+	<parameter name="section" class="java.lang.String"/>
+	<parameter name="studnetname" class="java.lang.String"/>
+	<parameter name="dateofbirth" class="java.lang.String"/>
+	<parameter name="bloodgroup" class="java.lang.String"/>
+	<parameter name="academicyear" class="java.lang.String"/>
+	<parameter name="rollno" class="java.lang.String"/>
+	<parameter name="address" class="java.lang.String"/>
+	<parameter name="city" class="java.lang.String"/>
+	<parameter name="state" class="java.lang.String"/>
+	<parameter name="mobile" class="java.lang.String"/>
+	<parameter name="email" class="java.lang.String"/>
+	<parameter name="emergencyno" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select * from users where uid=1]]>
+	</queryString>
+	<field name="uid" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="username" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="password" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="165" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="269" y="8" width="243" height="153" forecolor="#006666" uuid="6081f0ff-cb53-49d1-84c7-47fe6fd00574"/>
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="8" y="8" width="243" height="153" forecolor="#006666" uuid="69843f34-d105-4c0a-91ae-7ae385d271bb"/>
+			</rectangle>
+			<frame>
+				<reportElement x="182" y="65" width="52" height="68" uuid="ebd164d2-aa09-4c59-8dd1-299cb5103b4b"/>
+			</frame>
+			<textField>
+				<reportElement x="21" y="50" width="44" height="15" uuid="2f3799b7-0309-4754-82ba-008a3c65d080"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{class}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="65" y="50" width="35" height="15" uuid="0a551677-a1e2-46cf-b3ab-e57db48ae7fb"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($P{section})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="50" width="134" height="15" uuid="848e114c-86ab-4318-908d-727d4cdd3cb1"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{branch}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="21" y="72" width="32" height="13" uuid="bb96fcf7-0fb9-43fe-8832-ab5fdad61830"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="91" width="65" height="13" uuid="abe74ef5-f5e4-4a6e-bc8e-0185388c0b49"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date of Birth:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="110" width="67" height="13" uuid="f871e0f5-d85d-4028-8c4f-64ce4a91bfc3"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Blood Group:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="127" width="67" height="13" uuid="75bdd9fa-08c2-4891-a1c1-bd4eb7ab5505"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Academic Year:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="15" width="32" height="9" uuid="e90d37c1-c687-480e-ba38-577fa1f65c78"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="50" width="32" height="9" uuid="df87c069-bbed-4214-b662-ce4cff186aa8"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[City:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="65" width="32" height="10" uuid="ce6bb4e3-1b41-4926-95f4-cbe56a576d71"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[State:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="79" width="28" height="11" uuid="a1a38771-9734-4b71-9a03-5fb00d64612d"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Mobile:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="94" width="24" height="10" uuid="8d619dda-0b31-4739-8c36-3d07cafc3514"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="110" width="77" height="11" uuid="c55afff0-944f-431d-98d0-087501952f71"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Emergency Contact:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="143" width="67" height="13" uuid="9610050a-9797-48c4-b93d-caa94b156ee9"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Roll No:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="53" y="72" width="119" height="13" uuid="d48ef387-9374-4017-8fd0-1ea16c675d5f"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{studnetname}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="86" y="91" width="67" height="13" uuid="f1fb85d4-0627-4119-b241-5de3a4321bf5"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{dateofbirth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="88" y="110" width="67" height="13" uuid="d25e65da-d36a-4ce1-b290-3c17e3f17798"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{bloodgroup}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="88" y="127" width="84" height="13" uuid="e6e067f4-8c06-4205-8b9d-839617ceb358"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{academicyear}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="88" y="143" width="67" height="13" uuid="8a0927b5-7e39-4769-8bbc-4867fcaf2849"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{rollno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="15" width="169" height="29" uuid="c36daaf4-b6ff-4f45-bbee-dbd1ab2b872c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="47" width="169" height="12" uuid="4cf7a90f-5afa-4b74-89dc-91d16c8fccc7"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{city}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="61" width="169" height="12" uuid="8ff3aab5-876f-46e9-ae54-d91827572038"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{state}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="78" width="169" height="12" uuid="5a585271-426c-40c5-8636-2e1459505fdc"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{mobile}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="94" width="173" height="12" uuid="2eadfe28-30fc-46e7-b5bf-bb1600d4fcba"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="367" y="110" width="128" height="12" uuid="a4cb7afe-de4c-487f-9c59-e40671ae086c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{emergencyno}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="8" y="44" width="243" height="1" forecolor="#00CC66" uuid="17c8be24-8590-4952-91e2-4e0fb24da1b6"/>
+			</line>
+			<staticText>
+				<reportElement x="53" y="17" width="198" height="20" forecolor="#3300CC" uuid="a9effd5d-3aff-44c6-9595-5cbad2b2755c"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PDEA's College of Engineering, Manjari]]></text>
+			</staticText>
+			<line>
+				<reportElement x="269" y="124" width="243" height="1" forecolor="#00CC66" uuid="f2708954-75bf-4090-8df4-f040c889b1b5"/>
+			</line>
+			<staticText>
+				<reportElement x="290" y="132" width="205" height="11" uuid="cb0c904f-944d-4f8e-9bdf-eeebf80ae071"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Address:  Hadapsar-Manjari Road, Manjari Bk,, Pune - 412307]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="307" y="146" width="170" height="10" uuid="5378e74e-39f0-431e-bdec-5575024009d3"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Phone: 020 26996275, Email: coemanjri@gmail.com]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

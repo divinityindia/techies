@@ -1,0 +1,149 @@
+/* ========================================================================================= */
+/* ===================================== color_2 #66cdaa ==================================== */
+/* ========================================================================================= */
+
+#custumize-style a.switcher,
+#custumize-style #button-reset a,
+#custumize-style h1 {
+	background-color: #66cdaa;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.preloader .spinner .dot1,
+.preloader .spinner .dot2 {
+    background: #66cdaa;
+}
+
+.btn-pursache:before {
+	background-color: #66cdaa;
+}
+
+.demo-header a.current-demo {
+	background: #66cdaa;
+}
+
+
+.HorizontalTab.tabs_hor_1 .resp-tabs-list .resp-tab-active {
+	background-color: #66cdaa !important;
+}
+.HorizontalTab.tabs_hor_1 .resp-tabs-list li:hover {
+    background-color: #66cdaa !important;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.HorizontalTab.tabs_hor_2 .resp-tabs-list .resp-tab-active,
+.HorizontalTab.tabs_hor_3 .resp-tabs-list li {
+	background-color: #66cdaa !important;
+}
+.HorizontalTab.tabs_hor_2 .resp-tabs-list li:hover {
+    background-color: #66cdaa !important;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.HorizontalTab.tabs_hor_3 .resp-tabs-list .resp-tab-active {
+	color: #66cdaa !important;
+}
+
+.HorizontalTab.tabs_hor_3 .resp-tabs-list li i {
+    color: #66cdaa;
+}
+
+.HorizontalTab.tabs_hor_3 .resp-tabs-list li:hover i,
+.HorizontalTab.tabs_hor_3 .resp-tabs-list .resp-tab-active i {
+    background: #66cdaa !important;
+}
+
+.HorizontalTab.tabs_hor_4 .resp-tabs-list .resp-tab-active,
+.HorizontalTab.tabs_hor_4 .resp-tabs-list li:hover,
+.HorizontalTab.tabs_hor_5 .resp-tabs-list .resp-tab-active,
+.HorizontalTab.tabs_hor_5 .resp-tabs-list li:hover {
+	border-top: 2px solid #66cdaa !important;
+}
+.VerticalTab.tabs_ver_1 .resp-tabs-list .resp-tab-active {
+    color: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_1 .resp-tabs-list li:hover,
+.VerticalTab.tabs_ver_2 .resp-tabs-list li,
+.VerticalTab.tabs_ver_1 .resp-tabs-list li {
+    background-color: #66cdaa !important;
+}
+
+.VerticalTab.tabs_ver_2 .resp-tabs-list .resp-tab-active,
+.VerticalTab.tabs_ver_2 .resp-tabs-list li:hover {
+    color: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_2 .resp-tabs-list li i {
+	color: #66cdaa;
+}
+.VerticalTab.tabs_ver_2 .resp-tabs-list .resp-tab-active i ,
+.VerticalTab.tabs_ver_2 .resp-tabs-list li:hover i {
+    background: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_3 .resp-tabs-list li {
+	background-color: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_3 .resp-tabs-list .resp-tab-active,
+.VerticalTab.tabs_ver_3 .resp-tabs-list li:hover {
+    color: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_3 .resp-tabs-list li i {
+	color: #66cdaa;
+}
+.VerticalTab.tabs_ver_3 .resp-tabs-list .resp-tab-active i ,
+.VerticalTab.tabs_ver_3 .resp-tabs-list li:hover i {
+    background: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_4 .resp-tabs-list li {
+	background-color: #66cdaa !important;
+}
+
+.VerticalTab.tabs_ver_4 .resp-tabs-list .resp-tab-active i ,
+.VerticalTab.tabs_ver_4 .resp-tabs-list li:hover i,
+.VerticalTab.tabs_ver_5 .resp-tabs-list .resp-tab-active,
+.VerticalTab.tabs_ver_5 .resp-tabs-list li:hover,
+.VerticalTab.tabs_ver_4 .resp-tabs-list li:hover,
+.VerticalTab.tabs_ver_4 .resp-tabs-list .resp-tab-active {
+    color: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_5 .resp-tabs-list li {
+	background-color: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_5 .resp-tabs-list .resp-tab-active i ,
+.VerticalTab.tabs_ver_5 .resp-tabs-list li:hover i ,
+.VerticalTab.tabs_ver_6 .resp-tabs-list .resp-tab-active i ,
+.VerticalTab.tabs_ver_6 .resp-tabs-list li:hover i{
+    color: #66cdaa !important;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.VerticalTab.tabs_ver_6 .resp-tabs-list li {
+	background-color: #66cdaa !important;
+}
+.VerticalTab.tabs_ver_6 .resp-tabs-list .resp-tab-active,
+.VerticalTab.tabs_ver_6 .resp-tabs-list li:hover {
+    color: #66cdaa !important;
+}
+.site-footer .copyright span a:hover,
+.site-footer .credit a:hover {
+  color: #66cdaa;
+}
+.nicescroll-cursors {
+	background-color: #66cdaa !important;
+}
+h2.resp-accordion .fc_icons {
+	color: #66cdaa !important;
+}
+h2.resp-accordion {
+	background: #66cdaa !important;
+}

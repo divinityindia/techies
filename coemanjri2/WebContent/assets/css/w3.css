@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+   background:-webkit-linear-gradient(45deg,teal,cadetblue);
+   background:linear-gradient(45deg,teal,cadetblue);
+   height:100vh;
+   margin:0;
+}
+
+.card {
+   background-color:whitesmoke;
+   height:400px;
+   width:275px;
+   margin:0 auto;
+   position:relative;
+   top:20%;
+   -webkit-border-radius:20px;
+   border-radius:20px;
+   overflow:hidden;
+   
+   -webkit-transition: all 300ms;
+   transition: all 300ms;
+   
+   &:hover {
+      
+      #cardtext {
+         opacity:0;
+         cursor:default;
+      }
+         
+         #image {
+            height:165px;
+            
+            -webkit-border-radius:20px 20px 0 0;
+            border-radius:20px 20px 0 0;
+         }
+      
+      #cardtext_2 {
+         opacity:0.9;
+         cursor:text;
+      }
+   }
+}
+
+#image {
+   background-image:url(https://pbs.twimg.com/profile_images/559434611948666880/uHnwerm8.jpeg);
+   background-size:cover;
+   background-position:center;
+   height:100%;
+   width:100%;
+   border-radius:20px;
+   -webkit-border-radius:20px;
+   position:relative;
+   top:0;
+   z-index:2;
+   
+   -webkit-transition: all ease 300ms;
+   transition: all ease 300ms;
+}
+
+#cardtext {
+   font-family: 'Montserrat', sans-serif;
+   font-size:3em;
+   font-weight:700;
+   line-height:1.1em;
+   color:whitesmoke;
+   position:relative;
+   bottom:29%;
+   left:7%;
+   opacity:0.6;
+   z-index:3;
+   
+   -webkit-transition:all 100ms;
+   transition:all 100ms;
+}
+
+#cardtext_2 {
+   color:#333;
+   font-family:'Montserrat', sans-serif;
+   font-size:1em;
+   line-height:1.3em;
+   position:absolute;
+   opacity:0;
+   cursor:default;
+   top:160px;
+   left:10px;
+   z-index:1;
+   
+   -webkit-transition:all ease-in 300ms;
+   transition:all ease-in 300ms;
+   
+   -webkit-transition-delay:250ms;
+   transition-delay:250ms;
+}
+
+.buttons {
+   background-color:black;
+   height:50px;
+   width:100%;
+   position:absolute;
+   top:350px;
+   
+   &:hover {
+      cursor:pointer;
+   }
+}
+
+.button {
+   width:25%;
+   height:100%;
+   background-color:dimgrey;
+   display:block;
+   float:left;
+   
+   -webkit-transition:all ease-in-out 200ms;
+   transition:all ease-in-out 200ms;
+   
+   &:hover {
+      background-color:#555;
+   }
+}
+
+.button:nth-child(2) {
+   background-color:dimgrey;
+   
+   &:hover {
+      background-color:#555;
+   }
+}
+
+.button:nth-child(3) {
+   background-color:dimmgrey;
+   
+   &:hover {
+      background-color:#555;
+   }
+}
+
+.button:nth-child(4) {
+   background-color:dimgrey;
+   
+   &:hover {
+      background-color:#555;
+   }
+}
+
+.svg {
+   width:25px;
+   height:auto;
+   position:relative;
+   left:22px;
+   top:12px;
+}
+
+.fill {
+   fill:#888;
+}
