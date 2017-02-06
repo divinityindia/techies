@@ -1,0 +1,16 @@
+
+
+table{
+	
+	width: 80%;
+	
+    border-collapse: separate;
+}
+
+th,td{
+	height: 50px;
+}
+
+.llabel{
+	width: 80px;
+}

@@ -1,0 +1,51 @@
+.formitem{
+	width: 45%;
+	float: left;
+	margin: 5px 10px 5px 5px;
+	padding-left: 20px;
+	
+}
+
+.form_success{
+	
+	color: orange; 
+	font-size: medium;
+	font-weight: bold;
+}
+
+.routineBox{
+	height:120px;
+	width: 175px;
+	background:#307805;
+	border-radius: 15px;
+	float: left;
+	margin-left: 10px;
+	padding:5px 5px 5px 5px;
+	border: thin;
+	border-color: olive;
+	border-style: outset;
+}
+
+.textcolor{
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: medium;
+	font-stretch: wider;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
+.routinedisplay{
+	height:100px;
+	width:800px;
+	margin: 10px 5px 5px 20px;
+	padding: 4px;
+	background: green;
+	
+	float: left;
+}
+
+.routineblock{
+	width:50px;text-align:center;float:left;height:40px;background: #2caaf5;color:white;
+}

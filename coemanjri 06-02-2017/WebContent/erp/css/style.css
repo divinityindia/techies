@@ -1,0 +1,217 @@
+
+@import url("reset.css");
+@import url("fontawesome-4.2.0.min.css");
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+}
+
+p.button {
+    padding: 10px;
+}
+
+#fixed{
+	position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;  
+    height:145px;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+#movable{
+	margin-top: 170px;
+	padding-top: 20px;
+	
+}
+#wrapper {
+    width: 100%;
+    min-width: 300px;
+    max-width: 2000px;
+    margin: 0 auto;
+    height: 100%
+}
+
+#header {
+    float: left;
+    height: 145px;
+    width: 100%;
+    background: #ffffff;
+}
+
+#navigation {
+	color:#ffffff;
+    float: left;
+    height: 25px;
+    width: 100%;
+    
+    background: #CB2F1D;
+   
+}
+
+#contentliquid {
+    float: left;
+    width: 100%;
+    height: 100%;
+    bottom:33px;
+    background: #ffffff;
+}
+
+#content {
+   
+    margin-left: 50px;
+    
+}
+
+#leftcolumn {
+    float: left;
+    background: #CC33FF;
+    width: 50px;
+    margin-left: -100%;
+}
+
+#footer {
+    height: 25px;
+    width: 100%;
+    background: #06213F;
+    padding:9px 2px 0 2px;
+    clear: both;
+    
+}
+#footer p a{text-decoration: none;color:#55ABDA;}
+#footer p{color:#55ABDA;}
+
+/* others */
+
+/*Second Row*/
+
+#header p{color:#032880}
+p#tophead{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	line-height: 19px;
+	padding: 0;
+	margin: 0 0 2px 0;
+	text-align: center;
+}
+p#middlehead{
+	font-size: 38px;
+	font-weight: bolder;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	line-height: 28px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 4px 0 5px 0;
+}
+p#bottomhead{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px 0 5px 0;
+	margin: 5px 0 0 0;
+}
+p#bbhead{
+	font-size: 13px;
+	margin:8px 0 0 0;
+	text-align: center;
+	padding: 0px
+}
+
+#flogo{
+	float: left;
+	margin: 10px 0 3px 0;
+}
+
+#llogo{
+	float: right;
+	margin: 10px 0 3px 0;
+	
+}
+
+#mtext{
+	margin:0 auto;margin-top: 0px;
+	padding-top: 0px
+}
+
+
+/*Row 3 Navigation*/
+
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
+
+/* Top Navigation */
+#mainav{margin-top: 6px;padding-left: 15px}
+#mainav a{color: #ffffff}
+#mainav{text-align:center; text-transform:uppercase;}
+#mainav a{text-decoration: none;}
+#mainav ul{}
+#mainav ul ul{z-index:9999; position:absolute; width:200px;}
+#mainav ul ul ul{left:90px; top:0;}
+#mainav li{display:inline-block; position:relative; margin:0 0 0 15px; padding:0;}
+#mainav li:last-child{margin-right:90px;}
+#mainav li li{width:70%; margin:0 90px 0 0; text-align:left; text-transform:none;}
+#mainav li a{display:block; padding:0;}
+#mainav li li a{border:solid; border-width:0 0 1px 0;}
+#mainav li li:last-child a{border-bottom:none;}
+#mainav .drop{padding-left:15px;}
+#mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
+#mainav .drop::after, #mainav li li .drop::after{content:"\f0d7";}
+#mainav .drop::after{left:5px;}
+#mainav li li .drop::after{top:15px; left:5px;}
+#mainav ul ul{display:none;}
+#mainav ul li:hover > ul{display:block;}
+
+#mainav li li :last-child a{border-radius:0 0 0px 0px;}
+
+#mainav li li:first-child a, #slide-wrapper figure img, #slide-wrapper figure .view:hover::before{border-radius:0px 0px 0 0;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#55ABDA; background-color:inherit;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#55ABDA;}
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+
+.count_block{
+	margin-top: 30px;
+	margin-left: 0px;
+}
+.count_info{
+	
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0 5px 5px;
+    width: 195px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+}
+
+.count_number{
+	color: #FFFFFF; font-size: xx-large;font-weight: bold;margin-left: 12px
+}
+
+.dashboard{
+	margin: 10px 0 0 20px;
+	padding-bottom:15px;
+	float: left;
+	width: 90%;
+	height: auto;
+}
+

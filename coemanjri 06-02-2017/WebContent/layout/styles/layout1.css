@@ -1,0 +1,108 @@
+.impheading{
+	height: 25px;
+	width: 19%;
+	background: #c01e29;
+	text-align: center;
+	padding-top: 8px;
+	color: #FFFFFF;
+}
+
+
+/* Media Queries
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport{width:device-width;}
+
+
+/* Smartphone + Tablet
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Max Wrapper Width
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+@media (max-width:600px) { 
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+	.impheading{
+	height: 25px;
+	width: 100%;
+	background: #c01e29;
+	text-align: center;
+	padding-top: 2px;
+	color: #FFFFFF;
+	font-size: smaller;
+	}
+	
+	.scroll {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+	}
+
+}
+
+@media screen and (min-width:605px) and (max-width:750px) {
+	.impheading{
+	height: 25px;
+	width: 100%;
+	background: #c01e29;
+	text-align: center;
+	padding-top: 2px;
+	color: #FFFFFF;
+	font-size: smaller;
+	margin-top: 70px
+	}
+	.scroll {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+	}
+
+}
+
+@media screen and (min-width:750px) and (max-width:900px) {
+	.impheading{
+	height: 25px;
+	width: 100%;
+	background: #c01e29;
+	text-align: center;
+	padding-top: 2px;
+	color: #FFFFFF;
+	font-size: small;
+	margin-top: 70px
+	}
+	
+	.scroll {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+	}
+
+}
+
+
+@media (max-width:480px) { 
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+	.impheading{
+	height: 25px;
+	width: 100%;
+	background: #c01e29;
+	text-align: center;
+	padding-top: 2px;
+	color: #FFFFFF;
+	font-size: smaller;
+	}
+	
+	.scroll {
+   width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+	}
+
+}
+
+

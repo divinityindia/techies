@@ -1,0 +1,23 @@
+.error{
+	color: #ed5f68 
+}
+
+#block{
+	visibility: visible;
+	padding: 8px;
+	color: white;
+	
+}
+
+#block2{
+	display:none;
+	margin-top: 10px;
+	padding: 8px;
+	
+}
+
+#block1{
+	visibility: visible;
+	padding: 8px;
+	color: white;
+}

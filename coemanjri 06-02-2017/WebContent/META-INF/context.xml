@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/coemanjri">
+<!--    <Resource name="pdea" auth="Container" type="javax.sql.DataSource"
+            maxActive="-1" maxIdle="-1" maxWait="10000"
+            username="techdivi_coemanj" password="coemanjri123" driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://204.93.174.178:3306/techdivi_coemanj"/>-->
+             <Resource name="pdea" auth="Container" type="javax.sql.DataSource"
+             maxActive="100" maxIdle="20" minIdle="5" maxWait="10000"
+            username="techdivi_coemanj" password="coemanjri" driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://204.93.174.178:3306/techdivi_coemanj"/>
+</Context>
